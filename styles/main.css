@@ -44,3 +44,14 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+:root {
+  --color-primary: #217bf4;
+  --color-secondary: #ffaf2e;
+  --color-text: #0a093d;
+}
+
+body{
+  color: var(--color-text);
+  font-family:'Inter', sans-serif
+}
